@@ -1,0 +1,40 @@
+{
+    "name": "cycleResources",
+    "lowCaseName": "cycleresources",
+    "description": "Loops through resources at the current level.",
+    "author": "Murray Wood",
+    "version": "1.0.0",
+    "package":{
+        
+
+        "elements": {
+            
+            "snippets": [{
+                "name": "cycleResources",
+                "file": "cycleresources.snippet.php",
+                "properties": [{
+                    "name": "reverse",
+                    "value": 0
+                }]
+            },{
+                "name": "nextResource",
+                "file": "nextresource.snippet.php"
+            },{
+                "name": "prevResource",
+                "file": "prevresource.snippet.php"
+            }],
+            
+        
+            
+            "chunks": [{
+                "name": "cycleResourcesDefaultTpl",
+                "file": "cycleresources.chunk.tpl"
+            }]
+            
+        
+        },
+
+        "systemSettings": []
+    }
+    
+}
